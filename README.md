@@ -2,6 +2,8 @@
 
 This repository presents a collection of *my personal data science projects* in the form of iPython Notebooks. This portfolio does not include my (academic) research-related projects for the confidentiality reasons. While the topics and datasets being explored in this portfolio are chosen based on my own interest, tha primary focus of the projects is to employ various approaches and tools of data analysis/modelling to extract buried stories of the datasets on hand.
 
+While each jupyter notebook is self-explanatory, the required modules can be found in the "requirement.txt" contained in each project folder.
+
 Any questions or feedback regarding this portfolio can be kindly directed to the author, Sean Choi, at ss.choi@mail.utoronto.ca. 
 
 ## End-to-end projects
