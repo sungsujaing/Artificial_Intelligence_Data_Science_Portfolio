@@ -9,31 +9,31 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 ## End-to-end projects
 #### *tools: keras, tensorflow, scikit-learn, Pandas, Matplotlib, Seaborn*
 
-* **[Morphology-based skin cancer classification][1]**: Designed a customized CNN model and implemented a transfer learning on VGG16 that achieved ~ 80% accuracy in classifying 7 different skin cancer types. While the target variables were highly imbalanced, the final model constructed was shown to well differentiate different classes soley based on their morphology. Intermediate layers of CNN were also visualized for deeper understaning of the system. Best model/weights have been saved in the file.
+* **[Morphology-based skin cancer classification][1]**: Designed a customized CNN model and implemented a ***transfer learning on VGG16*** that achieved ~ 80% accuracy in classifying 7 different skin cancer types. While the target variables were highly imbalanced, the final model constructed was shown to well differentiate different classes soley based on their morphology. Intermediate layers of CNN were also visualized for deeper understaning of the system. Best model/weights have been saved in the file.
 <p align="center">
 <img src="SkinCancerClassification_CNN/figure/featuremaps-layer-1.png" alt="intermediate_layer_1" width="45%" class="center">
 <img src="SkinCancerClassification_CNN/figure/model_2_evaluation.png" alt="confusion matrix" width="45%" class="center">
 </p>
 
-* **[Forest Fire area prediction][2]**: Constructed regression model using XGBooster regressor that can estimate the burning area from the future forest fire. In order to deal with highly imbalanced target variable, oversampling approach was taken to help the model being sensitive to a small chance of forest fire occurance. With the corresponding feature selection process, the model could achieve the RMSE of ~3.2.
+* **[Forest Fire area prediction][2]**: Constructed regression model using ***XGBooster regressor*** that can estimate the burning area from the future forest fire. In order to deal with highly imbalanced target variable, oversampling approach was taken to help the model being sensitive to a small chance of forest fire occurance. With the corresponding feature selection process, the model could achieve the RMSE of ~3.2.
 <p align="center">
 <img src="EstimatingDamageFromForestFire/figure/low-level features.png" alt="feature locations" width="45%">
 <img src="EstimatingDamageFromForestFire/figure/learning curve.png" alt="learning curve" width="45%">
 </p>
 
-* **[Motion-sensor-based human motion prediction and subject identification][3]**: Analyzed motion sensor signals from human subjects in Time-domain and Frequency-domain to confirm their differentiability. Furthermore, various statistical technique like t-SNE was employed to visualize how different motions of different subjects fall into the same cluster. XGBooster classifier was trained to predict the motion and even identify the specific subject with >95% accuracy with only using the small portion of the available data. The most useful sensors in general in terms of predicting specific motions and subject were gyrometers on arms and ankles. 
+* **[Motion-sensor-based human motion prediction and subject identification][3]**: Analyzed motion sensor signals from human subjects in Time-domain and Frequency-domain to confirm their differentiability. Furthermore, various statistical technique like t-SNE was employed to visualize how different motions of different subjects fall into the same cluster. ***XGBooster classifier*** was trained to predict the motion and even identify the specific subject with >95% accuracy with only using the small portion of the available data. The most useful sensors in general in terms of predicting specific motions and subject were gyrometers on arms and ankles. Only a subset of available data (i.e. sensors on the wrist) has been tested for their prediction power.
 <p align="center">
 <img src="HumanAndMotionPrediction/figure/Time_Freq signal traces.png" alt="TDFD trace" width="45%">
 <img src="HumanAndMotionPrediction/figure/tSNA by motion.png" alt="tSNE" width="45%">
 </p>
 
-* **[Malignant breat tumor detection][4]**: As an extension of my Master's project, malignant breast tumor detection problem was explored using KNN and SVM classifiers. The metrics was carefully chosen so that to optimize the model that can avoid as much false-positives (predict as beningn while it is malignant) as possible. The performance of the two constructed models were compared with a that of a dummy classifer. While the KNN achieved ~ 99% precision, a highly tuned SVM classifier could achieve 100% precision while compromising its recall to some extent.
+* **[Malignant breat tumor detection][4]**: As an extension of my Master's project, malignant breast tumor detection problem was explored using ***KNN and SVM classifiers***. The metrics was carefully chosen so that to optimize the model that can avoid as much false-positives (predict as beningn while it is malignant) as possible. The performance of the two constructed models were compared with a that of a dummy classifer. While the KNN achieved ~ 99% precision, a highly tuned SVM classifier could achieve 100% precision while compromising its recall to some extent.
 <p align="center">
 <img src="PrognosticBreaseTumorDetection/figure/tSNE.png" alt="tSNE" width="45%">
 <img src="PrognosticBreaseTumorDetection/figure/p-r curve.png" alt="pr curve" width="30%">
 </p>
 
-* **[Retail sales prediction][5]**: Constructed an ensemble model to predict a purchase amount of new potential customers based on their low-level information such as Gender and Age group. A risk of data leakage, along with a careful feature engineering/selection, was investigated.
+* **[Retail sales prediction][5]**: Constructed an ***ensemble model*** to predict a purchase amount of new potential customers based on their low-level information such as Gender and Age group. A risk of data leakage, along with a careful feature engineering/selection, was investigated.
 
 <p align="center">
 <img src="RetailSalesPrediction_BlackFridayAnalysis/figure/learning curve.png" alt="learning curve" width="40%">
@@ -41,8 +41,8 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 
 ## Data analysis/visualization
 #### *tools: scikit-learn, Pandas, Matplotlib, Seaborn*
-* **[911 call type][11]**: The 911 call dataset was cleaned and organized by implementing various feature engineering/extraction techniques.
-* **[stock price][12]**: Analyzed daily returns of FANG (Facebook, Amazon, Netflix and Google) stocks between 2013/01/01 and 2018/01/01. A brief EDA on the fetched data could reveal the information that can help in future investment.
+* **[911 call type][11]**: The 911 call dataset was cleaned and organized by implementing various ***feature engineering/extraction techniques***.
+* **[stock price][12]**: Analyzed daily returns of FANG (Facebook, Amazon, Netflix and Google) stocks between 2013/01/01 and 2018/01/01. A brief ***EDA on the fetched data from online*** could reveal the information that can help in future investment.
 
 
 ## Mini capstone project <font size=3> - quick baseline model construction for fast prototyping</font> 
