@@ -6,7 +6,7 @@ While each jupyter notebook is self-explanatory, the required modules can be fou
 
 Any questions or feedback regarding this portfolio can be kindly directed to the author, Sean Choi, at ss.choi@mail.utoronto.ca. 
 
-## End-to-end projects
+## Projects
 #### *tools: keras, tensorflow, scikit-learn, Pandas, Matplotlib, Seaborn*
 
 * **[Morphology-based skin cancer classification][1]**: Designed a customized CNN model and implemented a ***transfer learning on VGG16*** that achieved ~ 80% accuracy in classifying 7 different skin cancer types. While the target variables were highly imbalanced, the final model constructed was shown to well differentiate different classes soley based on their morphology. Intermediate layers of CNN were also visualized for deeper understaning of the system. Best model/weights have been saved in the file.
