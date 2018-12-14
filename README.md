@@ -9,7 +9,7 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 ## Projects
 #### *tools: keras, tensorflow, scikit-learn, Pandas, Matplotlib, Seaborn*
 
-* **[Morphology-based skin cancer classification][1]**: Designed a customized CNN model and implemented a ***transfer learning on VGG16*** that achieved ~ 80% accuracy in classifying 7 different skin cancer types. While the target variables were highly imbalanced, the final model constructed was shown to well differentiate different classes soley based on their morphology. Intermediate layers of CNN were also visualized for deeper understaning of the system. Best model/weights have been saved in the file.
+* **[Morphology-based skin cancer classification][1]**: Designed a customized CNN model and implemented a ***transfer learning on VGG16*** that achieved ~ 80% accuracy in classifying 7 different skin cancer types. While the target variables were highly imbalanced, the final model constructed was shown to well differentiate different classes solely based on their morphology. Intermediate layers of CNN were also visualized for deeper understaning of the system. Best model/weights have been saved in the file.
 <p align="center">
 <img src="SkinCancerClassification_CNN/figure/featuremaps-layer-1.png" alt="intermediate_layer_1" width="45%" class="center">
 <img src="SkinCancerClassification_CNN/figure/model_2_evaluation.png" alt="confusion matrix" width="45%" class="center">
