@@ -1,6 +1,6 @@
 # Data Science Project Portfolio
 
-This repository presents a collection of *my personal data science projects* in the form of iPython Notebooks. This portfolio does not include my (academic) research-related projects for the confidentiality reasons. While the topics and datasets being explored in this portfolio are chosen based on my own interest, tha primary focus of the projects is to employ various approaches and tools of data analysis/modelling to extract buried stories of the datasets on hand.
+This repository presents a collection of *my personal data science projects* in the form of iPython Notebook. This portfolio does not include my (academic) research-related projects for the confidentiality reasons. While the topics and datasets being explored in this portfolio are chosen based on my own interest, tha primary focus of the projects is to employ various approaches and tools of data analysis/modelling to extract buried stories of the datasets on hand.
 
 While each jupyter notebook is self-explanatory, the required modules can be found in the "requirement.txt" contained in each project folder. If you wish to install the requirements, simply run `pip install -r requirements.txt`. 
 
