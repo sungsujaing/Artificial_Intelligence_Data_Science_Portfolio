@@ -1,23 +1,35 @@
->In many case, different algorithms may exhibit similar performances. What is more important includes nature of data, amount of data, hyperparameter tunning, etc.
+# Comparative studies of<br>Classic supervised machine learning algorithms
+
+> Learn from experience (E) with respect to some task (T) and some performance measure (P), if its performance (T), as measured by (P), improves with expereince (E) - Tom Mitchell (1998)
+
+In many case, different Machine Learning (ML) algorithms may exhibit similar performances. What is more important includes nature of data, amount of data, hyperparameter tunning, etc.
 
 #### For the list below:
 **_m_** refers to # of training data<br>
 **_n_** refers to # of feature
 
 ## Linear models
-* Common parametric algorithm for both regression and classification tasks.
-* In case of linear regression, a simple normal equation can be solved instead of applying the gradient descent optimizer. However, this numerical approach tends to be slower when n gets large.
-* Usually **sigmoid function** is applied to a linear regression model to build a logistic regression classifier.
+### Linear regression
+* Common parametric algorithm for regression tasks
+* Model: h<sub>&theta;</sub>(x) = &theta;<sup>T</sup>x where &theta; and x are n+1 dimensional vectors
+* Typical cost function: MSE
+* In case of linear regression, a simple normal equation (&theta; = (X<sub>T</sub>X)<sup>-1</sup>X<sup>T</sup>y) can be solved instead of applying the gradient descent optimizer. However, this numerical approach tends to be slower when **_n_** gets large.
+### Logistic regression
+* Common parametric algorithm for classification tasks
+* Usually **sigmoid function** (g) is applied to a linear regression model to build a logistic regression classifier.
+* Model: h<sub>&theta;</sub>(x) = g(&theta;<sup>T</sup>x) where g(z) = (1+e<sup>-z</sup>)<sup>-1</sup>
+* Typical cost function: entropy
+* Falling between 0 and 1, logistic regression predict probability y falling in a certain class given x, parameterized by &theta;
+* Threshold (default: 0.5) can be arbitrarily adjusted based on the specific evaluation criteria
+### For both cases
 * No hyperparameter that controls model complexity 
 * Important hyperparameters include
-  * Regularization parameter
-  * learning rate
-  
-$\sqrt{3x-1}+(1+x)^2$
+  * Regularization parameter (&lambda;) - should followed by feature scaling
+  * learning rate (&alpha;)
 
 | Pros | Cons |
 | ------ | ------ |
-| <ul><li>Fast training and simple to understand/explain</li><li>Soft classifier in logistic regression</li><li>Provide feature significance</li><li>Convex cost function</li><li>Work well when m is small and n is large</li></ul> | <ul><li>Not flexible to deal with non-linear hyperplanes</li><li>Adding high-order features is difficult and time-consuimng</li><li>Susceptible to outliers and co-linearity</li></ul>|
+| <ul><li>Fast training and simple to understand/explain</li><li>Provide feature significance</li><li>**Convex cost function**</li><li>Work well when **_m_** is small and **_n_** is large</li></ul> | <ul><li>Naturally not flexible to model non-linear hyperplanes</li><li>Adding high-order features is an option, but is difficult and time-consuimng</li></li>Feature scaling becomes important when adding high-order features</li><li>Susceptible to outliers and co-linearity</li></ul> |
 
 ## Support Vector Machines (SVM)
 * Common parametric algorithm for both regression and classification tasks.
