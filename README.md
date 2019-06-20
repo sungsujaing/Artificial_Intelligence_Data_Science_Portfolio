@@ -7,9 +7,16 @@ While each jupyter notebook is self-explanatory, the required modules can be fou
 Any questions or feedback regarding this portfolio can be kindly directed to the author, Sean Choi, at ss.choi@mail.utoronto.ca. 
 
 ## Projects
-#### *tools: keras, tensorflow, scikit-learn, Pandas, Matplotlib, Seaborn*
+#### *tools: keras, tensorflow-gpu, scikit-learn, Pandas, Matplotlib, Seaborn*
 
-* **[Morphology-based skin cancer classification][1]**: Designed a customized CNN model and implemented a ***transfer learning on VGG16*** that achieved ~ 80% accuracy in classifying 7 different skin cancer types. While the target variables were highly imbalanced, the final model constructed was shown to well differentiate different classes solely based on their morphology. Intermediate layers of CNN were also visualized for deeper understaning of the system. Best model/weights have been saved in the file.
+* **[Online-image-based happy dog detection (version 2)][27]**: Built ***a customized CNN model with ResNET50-like residual blocks***. Trained it with a small image set that were prepared from Google using `google-images-download` module. After searching for the optimized hyperparameters, the final model could achieve ~ 90% accuracy on a test set and the model was eventually applied to predict the happiness of my puppy, Lucky. Many of the mislabeled images were turned out to be very difficult even for me to classify as happy or sad. Acknowledging the difficulties associated with reading dogs' emotions, I have to admit that the quality of the downloaded training data must have been compromised to some degree. Nonetheless, the best model/weights have been saved.
+
+  <p align="center">
+  <img src="HappyDogDetection/Readme_images/wrong_label_test_image_v2.png" alt="intermediate_layer_1" width="45%" class="center">
+  <img src="HappyDogDetection/Readme_images/new_image_result_v2.png" alt="confusion matrix" width="45%" class="center">
+  </p>
+
+* **[Morphology-based skin cancer classification][1]**: Designed a customized CNN model and implemented a ***transfer learning on VGG16*** that achieved ~ 80% accuracy in classifying 7 different skin cancer types. While the target variables were highly imbalanced, the final model constructed was shown to well differentiate different classes solely based on their morphology. Intermediate layers of CNN were also visualized for deeper understaning of the system. The best model/weights have been saved.
 <p align="center">
 <img src="SkinCancerClassification_CNN/figure/featuremaps-layer-1.png" alt="intermediate_layer_1" width="45%" class="center">
 <img src="SkinCancerClassification_CNN/figure/model_2_evaluation.png" alt="confusion matrix" width="45%" class="center">
@@ -69,3 +76,6 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 [24]:https://github.com/sungsujaing/DataScience_Portfolio/blob/master/Mini%20capstone%20projects/Ad%20click%20prediction_Logistic%20Regression.ipynb
 [25]:https://github.com/sungsujaing/DataScience_Portfolio/blob/master/Mini%20capstone%20projects/AnonymousDataClassification_KNN.ipynb
 [26]:https://github.com/sungsujaing/DataScience_Portfolio/blob/master/Mini%20capstone%20projects/Loan_payback_prediction_Decision%20Trees%20and%20Random%20Forest.ipynb
+
+[27]: https://github.com/sungsujaing/DataScience_Portfolio/blob/master/HappyDogDetection/HappyDogDetection_v2.ipynb
+
