@@ -20,7 +20,7 @@ If interested, please also take a look at my articles on various Data Science, M
   <img src="HappyDogDetection/Readme_images/new_image_result_v2.png" alt="confusion matrix" width="45%" class="center">
   </p>
 
-* **[Morphology-based skin cancer classification][1]**: Designed a customized CNN model and implemented a ***transfer learning on VGG16*** that achieved ~ 80% accuracy in classifying 7 different skin cancer types. While the target variables were highly imbalanced, the final model constructed was shown to well differentiate different classes solely based on their morphology. Intermediate layers of CNN were also visualized for deeper understanding of the system. The best model/weights have been saved.
+* **[Morphology-based skin cancer classification][1]**: Designed a customized CNN model and implemented ***a transfer learning on VGG16*** that achieved ~ 80% accuracy in classifying 7 different skin cancer types. While the target variables were highly imbalanced, the final model constructed was shown to well differentiate different classes solely based on their morphology. Intermediate layers of CNN were also visualized for deeper understanding of the system. The best model/weights have been saved.
 <p align="center">
 <img src="SkinCancerClassification_CNN/figure/featuremaps-layer-1.png" alt="intermediate_layer_1" width="45%" class="center">
 <img src="SkinCancerClassification_CNN/figure/model_2_evaluation.png" alt="confusion matrix" width="45%" class="center">
@@ -82,4 +82,3 @@ If interested, please also take a look at my articles on various Data Science, M
 [26]:https://github.com/sungsujaing/DataScience_Portfolio/blob/master/Mini%20capstone%20projects/Loan_payback_prediction_Decision%20Trees%20and%20Random%20Forest.ipynb
 
 [27]: https://github.com/sungsujaing/DataScience_Portfolio/blob/master/HappyDogDetection/HappyDogDetection_v2.ipynb
-
