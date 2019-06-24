@@ -8,7 +8,7 @@ While each jupyter notebook is self-explanatory, the required modules can be fou
 
 Any questions or feedback regarding this portfolio can be kindly directed to the author, Sean Choi, at ss.choi@mail.utoronto.ca.
 
-If interested, please also take a look at my articles on various Data Science, Machine Learning and Deep Learning research topics [here](https://github.com/sungsujaing/ML_DL_articles_resources).
+If interested, please also take a look at my articles on various Data Science, Machine Learning and Deep Learning research topics [HERE](https://github.com/sungsujaing/ML_DL_articles_resources).
 
 ## Projects
 #### *tools: keras, tensorflow-gpu, scikit-learn, Pandas, Matplotlib, Seaborn*
