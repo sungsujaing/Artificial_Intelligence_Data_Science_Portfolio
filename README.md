@@ -6,9 +6,9 @@ Many side projects are currently on-going in separate repositories and they will
 
 While each jupyter notebook is self-explanatory, the required modules can be found in the "requirement.txt" contained in each project folder. If you wish to install the requirements, simply run `pip install -r requirements.txt`. 
 
-Any questions or feedback regarding this portfolio can be kindly directed to the author, Sean Choi, at ss.choi@mail.utoronto.ca.
+Any questions or feedback regarding this portfolio can be kindly directed to the author, Sean Choi, at _***ss.choi@mail.utoronto.ca***_.
 
-If interested, please also take a look at my articles on various Data Science, Machine Learning and Deep Learning research topics ***[HERE](https://github.com/sungsujaing/ML_DL_articles_resources)***.
+If interested, please also take a look at *my articles on various Data Science, Machine Learning and Deep Learning research topics* _***[HERE](https://github.com/sungsujaing/ML_DL_articles_resources)***_.
 
 ## Projects
 #### *tools: keras, tensorflow-gpu, scikit-learn, Pandas, Matplotlib, Seaborn*
