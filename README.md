@@ -1,4 +1,4 @@
-# Data Science and Machine Learning Project Portfolio
+# Data Science Project Portfolio
 
 This repository presents a collection of *my personal data science projects* in the form of iPython Notebook. This portfolio does not include my (academic) research-related projects for confidentiality reasons. While the topics and datasets being explored in this portfolio are chosen based on my own interest, the primary focus of the projects is to employ various approaches and tools of data analysis/modelling to extract buried stories of the datasets on hand.
 
