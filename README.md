@@ -21,12 +21,12 @@ If interested, please also take a look at ***my articles on various Data Science
 
 In the testing version: Currently, a customized YOLO model is being integrated to HappyDogDetector_v2 in order to localize dogs in a given image. For this project, the pretrained YOLO weights are being used, but in the future version, new weights is planned to be trained to improve the accuracy of the target detection. The full details of this ongoing project can be found [HERE](https://github.com/sungsujaing/Happy_Dog_Detection).
 
-***Current HappyDogDetector prototype with the classifier built in HappyDogDetector_v2 integrated.***
+***Current HappyDogDetector prototype: YOLO + HappyDogDetector_v2 classifier***
 <p align="center">
 <img src="HappyDogDetection/Readme_images/HappyDogDetection_example.png" width="60%">
 </p>
 
-The system is planned to be built into a realtime detection module in the upcoming HappyDogDetector_v3.*** The current prototype localize dogs from a given image and classify if he/she is happy (red) or sad (blue).
+The system is planned to be built into a realtime detection module in the upcoming HappyDogDetector_v3. The current prototype localize dogs from a given image and classify if he/she is happy (red) or sad (blue).
 
 * **[Morphology-based skin cancer classification][1]**: Designed a customized CNN model and implemented ***a transfer learning on VGG16*** that achieved ~ 80% accuracy in classifying 7 different skin cancer types. While the target variables were highly imbalanced, the final model constructed was shown to well differentiate different classes solely based on their morphology. Intermediate layers of CNN were also visualized for deeper understanding of the system. The best model/weights have been saved.
 <p align="center">
