@@ -14,18 +14,18 @@ If interested, please also take a look at ***my articles on various Data Science
 #### *tools: keras, tensorflow-gpu, scikit-learn, Pandas, Matplotlib, Seaborn*
 
 * **[Online-image-based Happy Dog Detection (version 2)][27]**: Built ***a customized CNN model with ResNET50-like residual blocks***. Trained it with a small image set that was prepared from Google using `google-images-download` module. After searching for the optimized hyperparameters, the final model could achieve ~ 90% accuracy on a test set and the model was eventually applied to predict the happiness of my puppy, Lucky. Many of the mislabeled images were turned out to be very difficult even for me to classify as happy or sad. Acknowledging the difficulties associated with reading dogs' emotions, I have to admit that the quality of the downloaded training data must have been compromised to some degree. Nonetheless, the best model/weights have been saved.
-
-  <p align="center">
-  <img src="HappyDogDetection/Readme_images/wrong_label_test_image_v2.png" alt="intermediate_layer_1" width="45%" class="center">
-  <img src="HappyDogDetection/Readme_images/new_image_result_v2.png" alt="confusion matrix" width="45%" class="center">
-  </p>
+<p align="center">
+<img src="HappyDogDetection/Readme_images/wrong_label_test_image_v2.png" alt="intermediate_layer_1" width="45%" class="center">
+<img src="HappyDogDetection/Readme_images/new_image_result_v2.png" alt="confusion matrix" width="45%" class="center">
+</p>
 
 In the testing version: Currently, a customized YOLO model is being integrated to HappyDogDetector_v2 in order to localize dogs in a given image. For this project, the pretrained YOLO weights are being used, but in the future version, new weights is planned to be trained to improve the accuracy of the target detection. The full details of this ongoing project can be found [HERE](https://github.com/sungsujaing/Happy_Dog_Detection).
 
-  ***Current HappyDogDetector prototype with the classifier built in HappyDogDetector_v2 integrated.***
-  <p align="center">
-  <img src="HappyDogDetection/Readme_images/HappyDogDetection_example.png" width="60%">
-  </p>
+***Current HappyDogDetector prototype with the classifier built in HappyDogDetector_v2 integrated.***
+<p align="center">
+<img src="HappyDogDetection/Readme_images/HappyDogDetection_example.png" width="60%">
+</p>
+
 The system is planned to be built into a realtime detection module in the upcoming HappyDogDetector_v3.*** The current prototype localize dogs from a given image and classify if he/she is happy (red) or sad (blue).
 
 * **[Morphology-based skin cancer classification][1]**: Designed a customized CNN model and implemented ***a transfer learning on VGG16*** that achieved ~ 80% accuracy in classifying 7 different skin cancer types. While the target variables were highly imbalanced, the final model constructed was shown to well differentiate different classes solely based on their morphology. Intermediate layers of CNN were also visualized for deeper understanding of the system. The best model/weights have been saved.
