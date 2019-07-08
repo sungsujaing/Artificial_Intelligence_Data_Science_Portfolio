@@ -18,7 +18,9 @@ If interested, please also take a look at ***my articles on various Data Science
 <img src="HappyDogDetection/Readme_images/wrong_label_test_image_v2.png" alt="intermediate_layer_1" width="45%" class="center">
 <img src="HappyDogDetection/Readme_images/new_image_result_v2.png" alt="confusion matrix" width="45%" class="center">
 </p>
-In the testing version: Currently, a customized YOLO model is being integrated to HappyDogDetector_v2 in order to localize happy dogs in a given image. For this project, the pretrained YOLO weights are being used, but in the future version, new weights is planned to be trained to improve the accuracy of the target detection. The full details of this ongoing project can be found [HERE](https://github.com/sungsujaing/Happy_Dog_Detection).
+
+In the testing version: Currently, a customized YOLO model is being integrated to HappyDogDetector_v2 in order to localize happy dogs in a given image. For this project, the pretrained YOLO weights are being used, but in the future version, new weights is planned to be trained to improve the accuracy of the target detection.
+The full details of this ongoing project can be found ***[HERE](https://github.com/sungsujaing/Happy_Dog_Detection)***.
 
 ***Current HappyDogDetector prototype (YOLO + HappyDogDetector_v2 classifier)*** on a YouTube video (detecting only **Happy**)
 *Video source: [here](https://www.youtube.com/watch?v=0lEUiQEDUHM)*
@@ -30,7 +32,6 @@ In the testing version: Currently, a customized YOLO model is being integrated t
 
 <p align="center">
 <img src="HappyDogDetection/Readme_images/HappyDogDetection_example.png" width="60%"></p>
-
 
 The current prototype localize dogs from a given image/vidoes and classify if he/she is happy (or optionally sad as well). The system is planned to be built into a realtime detection module in the upcoming HappyDogDetector_v3.
 
