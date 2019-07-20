@@ -19,7 +19,7 @@ If interested, please also take a look at ***my articles on various Data Science
 <img src="HappyDogDetection/Readme_images/new_image_result_hdc_v2.png" alt="confusion matrix" width="45%" class="center">
 </p>
 
-In the ongoing HappyDogDetector (HDD) development, ***a customized YOLO model was integrated to the best model built in HDC_v2*** in order to localize happy dogs in given images/videos. For this first version (HDD_v1), the pretrained YOLO weights were utilized, but in the upcoming versions, new weights are planned to be trained only to localize a face of a dog to improve the accuracy of the final model.
+In the ongoing HappyDogDetector (HDD) development, ***a customized YOLO model was integrated to the best model built in HDC_v2*** in order to localize happy dogs in given images/videos. For this first version (HDD_v1), the pretrained YOLO weights were used to identify dogs among 80 predictions, but in the upcoming versions, newly-trained weights will be used to localize only the face of a dog to improve the accuracy of the final model.
 The full details of this ongoing project can be found ***[HERE](https://github.com/sungsujaing/Happy_Dog_Detection)***.
 
 ***Current HDD_v1*** on a YouTube video (detecting only **Happy**)
