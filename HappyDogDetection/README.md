@@ -1,0 +1,1 @@
+***The full details of this ongoing Happy Dog Classifier/Detector project can be found in this [repository](https://github.com/sungsujaing/Happy_Dog_Detection)***.
