@@ -13,6 +13,20 @@ If interested, please also take a look at ***my articles on various Data Science
 ## Projects
 #### *tools: keras, tensorflow-gpu, scikit-learn, Pandas, Matplotlib, Seaborn*
 
+* **[TV time tracker based on face recognition (TTT_v3)][28]**: Built a tracker that recognizes the faces of registered individuals to measure the time they spend watching the camera (or watching TV in the final application). Developed on top of [Keras-OpenFace](https://github.com/iwantooxxoox/Keras-OpenFace), a project converting OpenFace from its original Torch implementation to a Keras version, the current version of TTT (TTT_v3) showed great accuracy of ~ 88% in recognizing my face + measuring time me watching a camera in a video format. In the upcoming versions, TTT will be implemented into a real-time module to be mounted on a TV to finalize the project. ***The full details of this ongoing TV time tracker project can be found in this [repository](https://github.com/sungsujaing/TV_time_tracking_face_recognition)***.
+
+<p align="center">
+<img src="TV_time_tracker/Readme_images/TTT_v2_summary.png" width="80%">
+</p>
+
+<p align="center">
+<img src="TV_time_tracker/Readme_images/TTT_v3_sean_test.gif" width="60%">
+</p>
+
+<p align="center">
+<img src="TV_time_tracker/Readme_images/TTT_v3_sean_test_result.png" width="100%">
+</p>
+
 * **[Online-image-based Happy Dog Classifier (HDC_v2)][27]**: Built ***a customized CNN model with ResNET50-like residual blocks***. Trained it with a small image set that was prepared from Google using `google-images-download` module. After searching for the optimized hyperparameters, the final model could achieve ~ 90% accuracy on a test set and the model was eventually applied to predict the happiness of my puppy, Lucky. Many of the mislabeled images were turned out to be very difficult even for me to classify as happy or sad. Acknowledging the difficulties associated with reading dogs' emotions, I have to admit that the quality of the downloaded training data must have been compromised to some degree. Nonetheless, the best model/weights have been saved.
 <p align="center">
 <img src="HappyDogDetection/Readme_images/wrong_label_test_image_hdc_v2.png" alt="intermediate_layer_1" width="45%" class="center">
@@ -20,9 +34,9 @@ If interested, please also take a look at ***my articles on various Data Science
 </p>
 
 In the ongoing HappyDogDetector (HDD) development, ***a customized YOLO model was integrated to the best model built in HDC_v2*** in order to localize happy dogs in given images/videos. For this first version (HDD_v1), the pretrained YOLO weights were used to identify dogs among 80 predictions, but in the upcoming versions, newly-trained weights will be used to localize only the face of a dog to improve the accuracy of the final model.
-The full details of this ongoing project can be found ***[HERE](https://github.com/sungsujaing/Happy_Dog_Detection)***.
+***The full details of this ongoing Happy Dog Classifier/Detector project can be found in this [repository](https://github.com/sungsujaing/Happy_Dog_Detection)***.
 
-***Current HDD_v1*** on a YouTube video (detecting only **Happy**)
+***Current HDD_v1*** ([LINK](https://github.com/sungsujaing/Happy_Dog_Detection/blob/master/custom_darkflow/HappyDogDetector_v1.ipynb)) on a YouTube video (detecting only **Happy**)
 *Video source: [here](https://www.youtube.com/watch?v=0lEUiQEDUHM)*
 
 <p align="center">
@@ -99,3 +113,6 @@ The current HDD_v1 localizes dogs from given images/vidoes and classify if he/sh
 [26]:https://github.com/sungsujaing/DataScience_Portfolio/blob/master/Mini%20capstone%20projects/Loan_payback_prediction_Decision%20Trees%20and%20Random%20Forest.ipynb
 
 [27]: https://github.com/sungsujaing/DataScience_Portfolio/blob/master/HappyDogDetection/HappyDogClassifier_v2.ipynb
+
+[28]: https://github.com/sungsujaing/TV_time_tracking_face_recognition/blob/master/TV_time_tracking_face_recognition_v3.ipynb
+
