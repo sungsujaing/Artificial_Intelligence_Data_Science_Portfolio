@@ -130,24 +130,21 @@ Constructed an ***ensemble model*** to predict a purchase amount of new potentia
 * **[Anonymous data classification][25]**: ***KNN*** model was trained in order to classify the given anonymous dataset. The hyperparameter has been optimized using a grid search.
 * **[Loan payback prediction][26]**: Constructed and compared basic ***tree-based models*** for their performance on a prediction of loan payback based on LendingClub profiles. 
 
-[1]:https://github.com/sungsujaing/DataScience_Portfolio/blob/master/SkinCancerClassification_CNN/SkinCancerClassification.ipynb
-[2]:https://github.com/sungsujaing/DataScience_Portfolio/blob/master/EstimatingDamageFromForestFire/Forest_Fire_Prediction_Model.ipynb
-[3]:https://github.com/sungsujaing/DataScience_Portfolio/blob/master/HumanAndMotionPrediction/Mobile_Human_Motion_Prediction.ipynb
-[4]:https://github.com/sungsujaing/DataScience_Portfolio/blob/master/PrognosticBreaseTumorDetection/BenignBreatTumorDetection.ipynb
-[5]:https://github.com/sungsujaing/DataScience_Portfolio/blob/master/RetailSalesPrediction_BlackFridayAnalysis/BlackFriday%2BAnalysis_Prediction.ipynb
+[1]:https://github.com/sungsujaing/Artificial_Intelligence_Data_Science_Portfolio/blob/master/SkinCancerClassification_CNN/SkinCancerClassification.ipynb
+[2]:https://github.com/sungsujaing/Artificial_Intelligence_Data_Science_Portfolio/blob/master/EstimatingDamageFromForestFire/Forest_Fire_Prediction_Model.ipynb
+[3]:https://github.com/sungsujaing/Artificial_Intelligence_Data_Science_Portfolio/blob/master/HumanAndMotionPrediction/Mobile_Human_Motion_Prediction.ipynb
+[4]:https://github.com/sungsujaing/Artificial_Intelligence_Data_Science_Portfolio/blob/master/PrognosticBreaseTumorDetection/BenignBreatTumorDetection.ipynb
+[5]:https://github.com/sungsujaing/Artificial_Intelligence_Data_Science_Portfolio/blob/master/RetailSalesPrediction_BlackFridayAnalysis/BlackFriday%2BAnalysis_Prediction.ipynb
 
-[11]:https://github.com/sungsujaing/DataScience_Portfolio/blob/master/Mini%20capstone%20projects/EDA-911call_Montgomery.ipynb
-[12]:https://github.com/sungsujaing/DataScience_Portfolio/blob/master/Mini%20capstone%20projects/EDA-FANG_StockPrice.ipynb
+[11]:https://github.com/sungsujaing/Artificial_Intelligence_Data_Science_Portfolio/blob/master/Mini%20capstone%20projects/EDA-911call_Montgomery.ipynb
+[12]:https://github.com/sungsujaing/Artificial_Intelligence_Data_Science_Portfolio/blob/master/Mini%20capstone%20projects/EDA-FANG_StockPrice.ipynb
 
-[21]:https://github.com/sungsujaing/DataScience_Portfolio/blob/master/Mini%20capstone%20projects/Bank%20authentication%20prediction_DNN%20buildup%20on%20TensorFlow.ipynb
-[22]:https://github.com/sungsujaing/DataScience_Portfolio/blob/master/Mini%20capstone%20projects/Yelp_Review%20classification_NLP.ipynb
-[23]:https://github.com/sungsujaing/DataScience_Portfolio/blob/master/Mini%20capstone%20projects/College%20type%20prediction_K-Means%20and%20Agglomerative%20Clustering.ipynb
-[24]:https://github.com/sungsujaing/DataScience_Portfolio/blob/master/Mini%20capstone%20projects/Ad%20click%20prediction_Logistic%20Regression.ipynb
-[25]:https://github.com/sungsujaing/DataScience_Portfolio/blob/master/Mini%20capstone%20projects/AnonymousDataClassification_KNN.ipynb
-[26]:https://github.com/sungsujaing/DataScience_Portfolio/blob/master/Mini%20capstone%20projects/Loan_payback_prediction_Decision%20Trees%20and%20Random%20Forest.ipynb
-
-[27]: https://github.com/sungsujaing/DataScience_Portfolio/blob/master/HappyDogDetection/HappyDogClassifier_v2.ipynb
-
-[28]: https://github.com/sungsujaing/TV_time_tracking_face_recognition/blob/master/TV_time_tracking_face_recognition_v3.ipynb
-
-[29]: https://github.com/sungsujaing/DataScience_Portfolio/blob/master/Letter_digit_generator/letter_digit_generator_v2_conv-CVAE.ipynb
+[21]:https://github.com/sungsujaing/Artificial_Intelligence_Data_Science_Portfolio/blob/master/Mini%20capstone%20projects/Bank%20authentication%20prediction_DNN%20buildup%20on%20TensorFlow.ipynb
+[22]:https://github.com/sungsujaing/Artificial_Intelligence_Data_Science_Portfolio/blob/master/Mini%20capstone%20projects/Yelp_Review%20classification_NLP.ipynb
+[23]:https://github.com/sungsujaing/Artificial_Intelligence_Data_Science_Portfolio/blob/master/Mini%20capstone%20projects/College%20type%20prediction_K-Means%20and%20Agglomerative%20Clustering.ipynb
+[24]:https://github.com/sungsujaing/Artificial_Intelligence_Data_Science_Portfolio/blob/master/Mini%20capstone%20projects/Ad%20click%20prediction_Logistic%20Regression.ipynb
+[25]:https://github.com/sungsujaing/Artificial_Intelligence_Data_Science_Portfolio/blob/master/Mini%20capstone%20projects/AnonymousDataClassification_KNN.ipynb
+[26]:https://github.com/sungsujaing/Artificial_Intelligence_Data_Science_Portfolio/blob/master/Mini%20capstone%20projects/Loan_payback_prediction_Decision%20Trees%20and%20Random%20Forest.ipynb
+[27]: https://github.com/sungsujaing/Artificial_Intelligence_Data_Science_Portfolio/blob/master/HappyDogDetection/HappyDogClassifier_v2.ipynb
+[28]: https://github.com/sungsujaing/Artificial_Intelligence_Data_Science_Portfolio/blob/master/TV_time_tracker/TV_time_tracking_face_recognition_v3.ipynb
+[29]: https://github.com/sungsujaing/Artificial_Intelligence_Data_Science_Portfolio/blob/master/Letter_digit_generator/letter_digit_generator_v2_conv-CVAE.ipynb
