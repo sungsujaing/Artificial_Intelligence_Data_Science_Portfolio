@@ -29,7 +29,7 @@ If interested, please also take a look at ***my articles on various Artificial I
 * [**Malignant breast tumor detection**](#malignant-breast-tumor-detection)
 * [**Retail sales prediction**](#retail-sales-prediction)
 * [**Data analysis and visualization**](#data-analysis-and-visualization)
-* [**Mini capstone project for fast prototyping**](#mini-cpastone-project-for-fast-prototyping)
+* [**Mini capstone project for fast prototyping**](#mini-capstone-project-for-fast-prototyping)
 
 ## Project summaries
 #### [*tools: keras, tensorflow-gpu, opencv, scikit-learn, Pandas, Matplotlib, Seaborn*]
