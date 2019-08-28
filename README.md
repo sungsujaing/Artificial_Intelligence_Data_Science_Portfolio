@@ -8,9 +8,16 @@ While each jupyter notebook is self-explanatory, the required modules can be fou
 
 Any questions or feedback regarding this portfolio can be kindly directed to the author, Sean Choi, at _***ss.sean.choi@gmail.com***_ or _***ss.choi@mail.utoronto.ca***_.
 
-## Articles
+## Articles and tutorials
 
-If interested, please also take a look at ***my articles on various Data Science, Machine Learning and Deep Learning research topics*** ***[HERE](https://github.com/sungsujaing/ML_DL_articles_resources)***.
+If interested, please also take a look at ***my articles on various Artificial Intelligence, Deep Learning and Data Science research topics*** ***[HERE](https://github.com/sungsujaing/ML_DL_articles_resources)***.
+
+Topics include:
+* Distributed training with Keras and TensorFlow data module
+* Exploring GAN, WGAN and StyleGAN
+* Face recognition using OpenFace
+* Comparison studies (pros/cons) on various supervised machine learning models
+* and many others!!
 
 ## Projects
 #### *tools: keras, tensorflow-gpu, opencv, scikit-learn, Pandas, Matplotlib, Seaborn*
@@ -74,7 +81,6 @@ In the ongoing **HappyDogDetector (HDD)** development, ***a customized YOLO mode
 
 <p align="center">
 <img src="HappyDogDetection/Readme_images/hdd_v1_example.png" width="60%"></p>
-
 
 The current HDD_v1 localizes dogs from given images/vidoes and classify if he/she is happy (or optionally sad as well). The system is planned to be built into a realtime detection module in the upcoming HDD versions.
 
