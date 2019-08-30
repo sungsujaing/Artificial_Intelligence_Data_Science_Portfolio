@@ -48,10 +48,7 @@ Developed **(convolutional) conditional variational autoencoder (CVAE)**-based h
 ***[ldg_v3_gen](https://github.com/sungsujaing/Artificial_Intelligence_Data_Science_Portfolio/blob/master/Letter_digit_generator/ldg_v3_gen.py)*** is a command-line letters/digits generator based on ldg_v3 Conv-CVAE model. It simply loads the Conv-CVAE model and the corresponding weights (best) to produce the results.
 
 <p align="center">
-<img src="Letter_digit_generator/images/ldg_v2_gen_help.png" width="50%">
-</p>
-<p align="center">
-<img src="Letter_digit_generator/images/ldg_v2_gen_summary.png" width="100%">
+<img src="Letter_digit_generator/images/summary_ldg_v3_gen.png" width="100%">
 </p>
 
 ### [TV time tracker based on face recognition (TTT_v3)][28] (or [*Full repository*](https://github.com/sungsujaing/TV_time_tracking_face_recognition))
