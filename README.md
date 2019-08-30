@@ -20,7 +20,7 @@ If interested, please also take a look at ***my articles on various Artificial I
 * and many others!!
 
 ## Current list of projects
-* [**Handwritten Letters/Digits generator (LDG_v2)**](#handwritten-letters-and-digits-generator-ldg_v2-or-full-repository)
+* [**Handwritten Letters/Digits generator (LDG_v3)**](#handwritten-letters-and-digits-generator-ldg_v3-or-full-repository)
 * [**TV time tracker based on face recognition (TTT_v3)**](#tv-time-tracker-based-on-face-recognition-ttt_v3-or-full-repository)
 * [**Online-image-based Happy Dog Classifier (HDC_v2)**](#online-image-based-happy-dog-classifier-hdc_v2-or-full-repository)
 * [**Morphology-based skin cancer classification**](#morphology-based-skin-cancer-classification)
@@ -34,18 +34,18 @@ If interested, please also take a look at ***my articles on various Artificial I
 ## Project summaries
 #### [*tools: keras, tensorflow-gpu, opencv, scikit-learn, Pandas, Matplotlib, Seaborn*]
 
-### [Handwritten Letters and Digits generator (LDG_v2)][29] (or [*Full repository*](https://github.com/sungsujaing/letter_digit_generator_VAE))
+### [Handwritten Letters and Digits generator (LDG_v3)][29] (or [*Full repository*](https://github.com/sungsujaing/letter_digit_generator_VAE))
 
 Developed **(convolutional) conditional variational autoencoder (CVAE)**-based handwritten letters/digits generator. Trained on the EMNIST dataset (62 claases compriding [0-9], [a-z] and [A-Z]), the generator can produce new handwritten-like letters/digits based on the typed inputs. Both convolutional and vanilla models are being investigated for comparison purposes. While the models are not yet optimized, their reconstruction results look satisfactory.
 
 <p align="center">
-<img src="Letter_digit_generator/images/summary_ldg_v2_reconstruction.png" width="90%">
+<img src="Letter_digit_generator/images/summary_ldg_v3_reconstruction.png" width="90%">
 </p>
 <p align="center">
-<img src="Letter_digit_generator/images/summary_ldg_v2_testing.png" width="100%">
+<img src="Letter_digit_generator/images/summary_ldg_v3_testing.png" width="100%">
 </p>
 
-***[ldg_v2_gen](https://github.com/sungsujaing/Artificial_Intelligence_Data_Science_Portfolio/blob/master/Letter_digit_generator/ldg_v2_gen.py)*** is a command-line letters/digits generator based on ldg_v2 Conv-CVAE model. It simply loads the Conv-CVAE model and the corresponding best weights to produce results.
+***[ldg_v3_gen](https://github.com/sungsujaing/Artificial_Intelligence_Data_Science_Portfolio/blob/master/Letter_digit_generator/ldg_v3_gen.py)*** is a command-line letters/digits generator based on ldg_v3 Conv-CVAE model. It simply loads the Conv-CVAE model and the corresponding weights (best) to produce the results.
 
 <p align="center">
 <img src="Letter_digit_generator/images/ldg_v2_gen_help.png" width="50%">
@@ -177,4 +177,4 @@ Constructed and compared basic ***tree-based models*** for their performance on 
 [26]:https://github.com/sungsujaing/Artificial_Intelligence_Data_Science_Portfolio/blob/master/Mini%20capstone%20projects/Loan_payback_prediction_Decision%20Trees%20and%20Random%20Forest.ipynb
 [27]: https://github.com/sungsujaing/Artificial_Intelligence_Data_Science_Portfolio/blob/master/HappyDogDetection/HappyDogClassifier_v2.ipynb
 [28]: https://github.com/sungsujaing/Artificial_Intelligence_Data_Science_Portfolio/blob/master/TV_time_tracker/TV_time_tracking_face_recognition_v3.ipynb
-[29]: https://github.com/sungsujaing/Artificial_Intelligence_Data_Science_Portfolio/blob/master/Letter_digit_generator/letter_digit_generator_v2_conv-CVAE.ipynb
+[29]: https://github.com/sungsujaing/Artificial_Intelligence_Data_Science_Portfolio/blob/master/Letter_digit_generator/letter_digit_generator_v3_conv-CVAE.ipynb
