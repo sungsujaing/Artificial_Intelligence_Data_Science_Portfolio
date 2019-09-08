@@ -10,7 +10,7 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 
 ## Articles and tutorials
 
-If interested, please also take a look at ***my articles on various Artificial Intelligence, Deep Learning, Machine Learning and Data Science research topics*** [***HERE***](https://github.com/sungsujaing/Artificial_Intelligence_Data_Science_Portfolio).
+If interested, please also take a look at ***my articles on various Artificial Intelligence, Deep Learning, Machine Learning and Data Science research topics*** [***HERE***](https://github.com/sungsujaing/Artificial_Intelligence_articles_and_tutorials).
 
 *Topics include*:
 * Distributed training with Keras and TensorFlow data module
