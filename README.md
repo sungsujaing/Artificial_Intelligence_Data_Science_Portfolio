@@ -4,7 +4,7 @@ This repository presents a collection of ***personal AI and data science project
 
 Many side projects are currently on-going in separate repositories and they will be continuously merged into this portfolio repository for presentation.
 
-While each jupyter notebook is self-explanatory, the required modules can be found in the "requirement.txt" contained in each project folder. If you wish to install the requirements, simply run `pip install -r requirements.txt` in your virtual environment. 
+While each jupyter notebook is self-explanatory, required modules can be found in the "requirement.txt" contained in each project folder. If you wish to install the requirements, simply run `pip install -r requirements.txt` in your virtual environment. 
 
 Any questions or feedback regarding this portfolio can be kindly directed to the author, ***Sean Choi***, at ***ss.sean.choi@gmail.com*** or ***ss.choi@mail.utoronto.ca***.
 
@@ -12,7 +12,8 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 
 If interested, please also take a look at ***my articles on various Artificial Intelligence, Deep Learning, Machine Learning and Data Science research topics*** [***HERE***](https://github.com/sungsujaing/Artificial_Intelligence_articles_and_tutorials).
 
-*Topics include*:
+*Article/tutorial topics include*:
+
 * Distributed training with Keras and TensorFlow data module
 * Exploring GAN, WGAN and StyleGAN
 * Face recognition using OpenFace
@@ -20,6 +21,7 @@ If interested, please also take a look at ***my articles on various Artificial I
 * and many more!!
 
 ## Current list of projects
+* [**KnowYourMove - store traffic analyzer**](#knowyourmove)
 * [**Handwritten Letters/Digits generator (LDG_v3)**](#handwritten-letters-and-digits-generator-ldg_v3-or-full-repository)
 * [**TV time tracker based on face recognition (TTT_v3)**](#tv-time-tracker-based-on-face-recognition-ttt_v3-or-full-repository)
 * [**Online-image-based Happy Dog Classifier (HDC_v2)**](#online-image-based-happy-dog-classifier-hdc_v2-or-full-repository)
@@ -32,7 +34,19 @@ If interested, please also take a look at ***my articles on various Artificial I
 * [**Mini capstone project for fast prototyping**](#mini-capstone-project-for-fast-prototyping)
 
 ## Project summaries
-#### [*tools: keras, tensorflow-gpu, opencv, scikit-learn, Pandas, Matplotlib, Seaborn*]
+#### [*tools: TensorFlow-gpu, Keras, OpenCV, Scikit-Learn, Flask, Pandas, Matplotlib, Seaborn, etc*]
+
+### [KnowYourMove][30] (or [*Full repository*](https://github.com/sungsujaing/INSIGHT-project))
+
+Deployed computer-vision-based business intelligence tool (**KnowYourMove**) that analyzes time-specific store traffics from store surveillance camera systems. By tracking the motion of individual customers over time (**based on Single Shot Detector and centroid tracking algorithm**), KnowYourMove generates information maps that can provide business owners with hidden insights to understand their customers better (in terms of their shopping routes and aggregated time spent in different areas). KnowYourMove has been deployed as a [**web application**](http://www.knowyourmove.store/) (currently hosted on AWS t2.micro) where a user can upload a surveillance video (or use videos from YouTube) to generate the reports. The information can be filtered by specific time windows (i.e. morning/afternoon or weekdays/weekends, etc). Such information is expected to provide time-specific customer traffics at a store so as to enable micro-optimization of business operations such as store floor plannings and pricing strategy without breaching customer privacy.
+
+<p align="center">
+<img src="KnowYourMove/ReadMe_Images/KnowYourMoveGIF.gif" width=100%></p>
+
+<p align="center">
+<img src="KnowYourMove/ReadMe_Images/summary_result.png" width=100%></p>
+
+
 
 ### [Handwritten Letters and Digits generator (LDG_v3)][29] (or [*Full repository*](https://github.com/sungsujaing/letter_digit_generator_VAE))
 
@@ -136,14 +150,14 @@ Constructed an ***ensemble model*** to predict a purchase amount of new potentia
 </p>
 
 ### Data analysis and visualization
-#### [*tools: scikit-learn, Pandas, Matplotlib, Seaborn*]
+#### [*tools: Scikit-Learn, Pandas, Matplotlib, Seaborn*]
 #### [911 call type][11]
 The 911 call dataset was cleaned and organized by implementing various ***feature engineering/extraction techniques***.
 #### [stock price][12]
 Analyzed daily returns of FANG (Facebook, Amazon, Netflix and Google) stocks between 2013/01/01 and 2018/01/01. A brief ***EDA on the fetched data from online*** could reveal the information that can help in future investment.
 
 ### Mini capstone project for fast prototyping 
-#### [*tools: tensorflow, scikit-learn, Pandas, Matplotlib, Seaborn, Hyperopt*]
+#### [*tools: TensorFlow, Scikit-Learn, Pandas, Matplotlib, Seaborn, Hyperopt*]
 #### [Bank note authentication prediction][21]
 Roughly constructed ***DNN*** was employed to differentiate the authentic and fake bank notes. Its classification accuracy was compared to that of a highly-tuned logistic regression model to test its performance.  
 #### [yelp review star prediction][22]
@@ -183,3 +197,5 @@ Constructed and compared basic ***tree-based models*** for their performance on 
 [27]: https://github.com/sungsujaing/Artificial_Intelligence_Data_Science_Portfolio/blob/master/HappyDogDetection/HappyDogClassifier_v2.ipynb
 [28]: https://github.com/sungsujaing/Artificial_Intelligence_Data_Science_Portfolio/blob/master/TV_time_tracker/TV_time_tracking_face_recognition_v3.ipynb
 [29]: https://github.com/sungsujaing/Artificial_Intelligence_Data_Science_Portfolio/blob/master/Letter_digit_generator/letter_digit_generator_v3_conv-CVAE.ipynb
+
+[30]: https://github.com/sungsujaing/Artificial_Intelligence_Data_Science_Portfolio/blob/master/KnowYourMove/Motion_analyzer.ipynb

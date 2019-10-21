@@ -1,0 +1,1 @@
+***The full details of KnowYourMove project can be found in this [repository](https://github.com/sungsujaing/INSIGHT-project)***.
