@@ -21,7 +21,7 @@ If interested, please also take a look at ***my articles on various Artificial I
 * and many more!!
 
 ## Current list of projects
-* [**KnowYourMove - store traffic analyzer**](#knowyourmove)
+* [**KnowYourMove - store traffic analyzer**](#knowyourmove-or-full-repository)
 * [**Handwritten Letters/Digits generator (LDG_v3)**](#handwritten-letters-and-digits-generator-ldg_v3-or-full-repository)
 * [**TV time tracker based on face recognition (TTT_v3)**](#tv-time-tracker-based-on-face-recognition-ttt_v3-or-full-repository)
 * [**Online-image-based Happy Dog Classifier (HDC_v2)**](#online-image-based-happy-dog-classifier-hdc_v2-or-full-repository)
@@ -34,7 +34,7 @@ If interested, please also take a look at ***my articles on various Artificial I
 * [**Mini capstone project for fast prototyping**](#mini-capstone-project-for-fast-prototyping)
 
 ## Project summaries
-#### [*tools: TensorFlow-gpu, Keras, OpenCV, Scikit-Learn, Flask, Pandas, Matplotlib, Seaborn, etc*]
+#### [*tools: TensorFlow-gpu, Keras, OpenCV, Scikit-Learn, Flask, Pandas, Matplotlib, Seaborn, etc.*]
 
 ### [KnowYourMove][30] (or [*Full repository*](https://github.com/sungsujaing/INSIGHT-project))
 
@@ -150,14 +150,14 @@ Constructed an ***ensemble model*** to predict a purchase amount of new potentia
 </p>
 
 ### Data analysis and visualization
-#### [*tools: Scikit-Learn, Pandas, Matplotlib, Seaborn*]
+#### [*tools: Scikit-Learn, Pandas, Matplotlib, Seaborn, etc.*]
 #### [911 call type][11]
 The 911 call dataset was cleaned and organized by implementing various ***feature engineering/extraction techniques***.
 #### [stock price][12]
 Analyzed daily returns of FANG (Facebook, Amazon, Netflix and Google) stocks between 2013/01/01 and 2018/01/01. A brief ***EDA on the fetched data from online*** could reveal the information that can help in future investment.
 
 ### Mini capstone project for fast prototyping 
-#### [*tools: TensorFlow, Scikit-Learn, Pandas, Matplotlib, Seaborn, Hyperopt*]
+#### [*tools: TensorFlow, Scikit-Learn, Pandas, Matplotlib, Seaborn, Hyperopt, etc.*]
 #### [Bank note authentication prediction][21]
 Roughly constructed ***DNN*** was employed to differentiate the authentic and fake bank notes. Its classification accuracy was compared to that of a highly-tuned logistic regression model to test its performance.  
 #### [yelp review star prediction][22]
