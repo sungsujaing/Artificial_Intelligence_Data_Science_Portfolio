@@ -1,0 +1,7 @@
+__pycache__
+.DS_Store
+.ipynb_checkpoints
+uncased_L-12_H-768_A-12
+
+text_data_1.csv
+text_data_2.data
