@@ -21,6 +21,7 @@ If interested, please also take a look at ***my articles on various Artificial I
 * and many more!!
 
 ## Current list of projects
+* [**Two-style Neural Transfer**](#two-style-neural-transfer-or-full-repository)
 * [**KnowYourMove - store traffic analyzer**](#knowyourmove-or-full-repository)
 * [**Handwritten Letters/Digits generator (LDG_v3)**](#handwritten-letters-and-digits-generator-ldg_v3-or-full-repository)
 * [**TV time tracker based on face recognition (TTT_v3)**](#tv-time-tracker-based-on-face-recognition-ttt_v3-or-full-repository)
@@ -35,6 +36,24 @@ If interested, please also take a look at ***my articles on various Artificial I
 
 ## Project summaries
 #### [*tools: TensorFlow-gpu, Keras, OpenCV, Scikit-Learn, Flask, Pandas, Matplotlib, Seaborn, etc.*]
+
+### [Two-style Nueral Transfer][31] (or [*Full repository*](https://github.com/sungsujaing/NeuralStyleTransfer_custom))
+
+Developed a custom **two-style neural style transfer** that combines styles of two different arts to redraw the third art piece in a unique way. A pre-trained VGG16 model was used to extract styles and contents from arbitrary images. Unlike the conventional one-style transfer approach, different low-level features were optimized for different styles of arts, thus allowing both styles to be reflected when reconstructing the content image. Many hyperparameters are involved in this fitting process. Thus, based on specific purposes, hyperparameters can be adjusted to create unique results. For demo purposes, art images were obtained from Google. 
+
+<p align="center">
+<img src="TwoStyleTransfer/Readme_images/two_style_outline.png" width=80%></p>
+
+<p align="center">
+<img src="TwoStyleTransfer/Readme_images/two_style_sample_images.png" width=80%></p>
+
+<p align="center">
+<img src="TwoStyleTransfer/Readme_images/two_style_result.png" width=80%></p>
+
+<p align="center">
+<img src="TwoStyleTransfer/Readme_images/two-style.gif" width=50%></p>
+
+
 
 ### [KnowYourMove][30] (or [*Full repository*](https://github.com/sungsujaing/INSIGHT-project))
 
@@ -199,3 +218,5 @@ Constructed and compared basic ***tree-based models*** for their performance on 
 [29]: https://github.com/sungsujaing/Artificial_Intelligence_Data_Science_Portfolio/blob/master/Letter_digit_generator/letter_digit_generator_v3_conv-CVAE.ipynb
 
 [30]: https://github.com/sungsujaing/Artificial_Intelligence_Data_Science_Portfolio/blob/master/KnowYourMove/Motion_analyzer.ipynb
+[31]: https://github.com/sungsujaing/Artificial_Intelligence_Data_Science_Portfolio/blob/master/TwoStyleTransfer/StyleTransfer_custom.ipynb
+
