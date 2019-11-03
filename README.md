@@ -37,7 +37,7 @@ If interested, please also take a look at ***my articles on various Artificial I
 ## Project summaries
 #### [*tools: TensorFlow-gpu, Keras, OpenCV, Scikit-Learn, Flask, Pandas, Matplotlib, Seaborn, etc.*]
 
-### [Two-style Nueral Transfer][31] (or [*Full repository*](https://github.com/sungsujaing/NeuralStyleTransfer_custom))
+### [Two-style Neural Transfer][31] (or [*Full repository*](https://github.com/sungsujaing/NeuralStyleTransfer_custom))
 
 Developed a custom **two-style neural style transfer** that combines styles of two different arts to redraw the third art piece in a unique way. A pre-trained VGG16 model was used to extract styles and contents from arbitrary images. Unlike the conventional one-style transfer approach, different low-level features were optimized for different styles of arts, thus allowing both styles to be reflected when reconstructing the content image. Many hyperparameters are involved in this fitting process. Thus, based on specific purposes, hyperparameters can be adjusted to create unique results. For demo purposes, art images were obtained from Google. 
 
