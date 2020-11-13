@@ -3,4 +3,4 @@ keras==2.2.4
 matplotlib==3.0.0
 numpy==1.16.4
 opencv==3.4.1
-tensorflow-gpu==1.12.0
+tensorflow-gpu==2.3.1
