@@ -3,6 +3,11 @@
 .AppleDouble
 .LSOverride
 
+TV_time_tracker/.ipynb_checkpoints/
+TV_time_tracker/__pycache__/
+TV_time_tracker/image_database/
+TV_time_tracker/test/
+
 # Icon must end with two \r
 Icon
 
