@@ -92,7 +92,7 @@ Built a tracker that recognizes the faces of registered individuals to measure t
 <img src="TV_time_tracker/Readme_images/TTT_v2_summary.png" width="80%">
 </p>
 <p align="center">
-<img src="TV_time_tracker/Readme_images/TTT_v3_sean_test.gif" width="60%">
+<img src="TV_time_tracker/Readme_images/TTT_v3_sean_test.gif" width="35%">
 </p>
 <p align="center">
 <img src="TV_time_tracker/Readme_images/TTT_v3_sean_test_result.png" width="100%">
